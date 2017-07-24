@@ -388,9 +388,8 @@ class Main_menu
     banner
     puts "[1] Scan site Sql and Xss".light_green
     puts "[2] Create payload".light_green
-    puts "[3] ??".light_green
-    puts "[4] Scan ports".light_green
-    puts "[5] Exit".light_green
+    puts "[3] Scan ports".light_green
+    puts "[4] Exit".light_green
     print "Zilcorili>>>".light_blue
     menu_1 = gets.chomp
     if menu_1.to_i == 1
@@ -402,11 +401,9 @@ class Main_menu
       create_pay_start = PayloadCreate.new
       create_pay_start.menu_payloads
     elsif menu_1.to_i == 3
-      puts "??"
-    elsif menu_1.to_i == 4
       scan_port_start = ScanPort.new
       scan_port_start.menu_port
-    elsif menu_1.to_i == 5
+    elsif menu_1.to_i == 4
       exit
     else
       puts "Value invalid"
